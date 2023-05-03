@@ -4,7 +4,7 @@ import defaultConfig from './playwright.default.js';
 
 const specialConfig = defineConfig({
     ...defaultConfig,
-    // Your specialized configurations for special1
+    // Your specialized configurations
     testDir: './tests',
     use: {
         ...defaultConfig.use,

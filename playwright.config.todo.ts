@@ -1,10 +1,10 @@
 // playwright.config.special2.js
 import { defineConfig } from '@playwright/test';
 import defaultConfig from './playwright.default';
-//console.log(defaultConfig);
+
 const specialConfig = defineConfig({
     ...defaultConfig,
-    // Your specialized configurations for special2
+    // Your specialized configurations 
     testDir: './tests-examples',
     reporter: 'list',
     use: {
