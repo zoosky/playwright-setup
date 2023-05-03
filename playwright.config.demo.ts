@@ -1,4 +1,4 @@
-// playwright.config.special1.js
+// playwright.config.demo.ts
 import { defineConfig } from '@playwright/test';
 import defaultConfig from './playwright.default.js';
 

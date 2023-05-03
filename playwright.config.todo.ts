@@ -1,4 +1,4 @@
-// playwright.config.special2.js
+// playwright.config.todo.ts
 import { defineConfig } from '@playwright/test';
 import defaultConfig from './playwright.default';
 
@@ -6,7 +6,7 @@ const specialConfig = defineConfig({
     ...defaultConfig,
     // Your specialized configurations 
     testDir: './tests-examples',
-    reporter: 'list',
+    reporter: 'dot',
     use: {
         ...defaultConfig.use,
         // Overwrite specific use parameters
