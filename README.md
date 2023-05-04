@@ -11,6 +11,9 @@ Run To Do tests with
 
 The two setups use different:
 
-* basURL
+* baseURL
 * reporter
 * tests directory
+
+
+To prepare your projects run, there is some `*.setup.ts`config included, for such things like setup. 
