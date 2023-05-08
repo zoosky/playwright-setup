@@ -15,5 +15,6 @@ The two setups use different:
 * reporter
 * tests directory
 
+To prepare your projects run, there is some `*.setup.ts`config included, for such things like setup.
 
-To prepare your projects run, there is some `*.setup.ts`config included, for such things like setup. 
+         npx playwright test --list --config playwright.config.demo.ts
